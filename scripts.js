@@ -197,7 +197,7 @@ document.getElementById('chatForm').addEventListener('submit', async function (e
     chatBody.appendChild(userMessage);
     document.getElementById('question').value = '';
 
-    const response = await fetch('http://3.82.61.35:82/ask', {
+    const response = await fetch('https://4c2d-3-82-61-35.ngrok-free.app/ask', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
